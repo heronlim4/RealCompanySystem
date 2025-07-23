@@ -49,4 +49,4 @@ Uma pequena locadora de vídeos precisa de um sistema para controlar o emprésti
 
 ## Status do Projeto
 
-Em desenvolvimento (projeto acadêmico).
+Finalizado.
