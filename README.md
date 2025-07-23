@@ -1,23 +1,52 @@
 # RealCompanySystem
-Projeto final realizado para a disciplina de Programação Orientada a Objetos
-Estudo de caso: Sistema de locação de vídeos
-Descrição:
-	● Uma pequena locadora de vídeos possui ao redor de 2.000 DVDs de vídeo, cujo
-empréstimo deve ser controlado.
-	● Cada DVD possui um número.
-	● Para cada filme, é necessário saber seu título e sua categoria (comédia, drama,
-aventura, ação, etc.).
-	● Cada filme recebe um identificador próprio. Para cada DVD controlado que filme ela
-contém.
-	● Para cada filme há pelo menos um DVD, e cada DVD contém somente um filme.
-Alguns poucos filmes necessitam de dois DVDs.
-	● Os clientes podem desejar encontrar os filmes estrelados pelo seu ator predileto. Por
-isso, é necessário manter a informação dos atores que estrelam em cada filme. Nem
-todo filme possui estrelas. Para cada ator os clientes às vezes desejam saber o nome
-real, ou apelido conhecido.
-	● A locadora possui muitos clientes cadastrados. Somente clientes cadastrados podem
-alugar DVDs. Para cada cliente é necessário saber seu nome e sobrenome, seu
-telefone e seu endereço. Além disso, cada cliente recebe um número de associado.
-	● Finalmente, desejamos saber que DVDs cada cliente tem emprestadas.
-Um cliente pode ter vários DVDs em um instante de tempo.
-	● Não são mantidos registros históricos de aluguéis.
+
+Projeto final desenvolvido para a disciplina de **Programação Orientada a Objetos**.
+
+## Estudo de Caso: Sistema de Locação de Vídeos
+
+Uma pequena locadora de vídeos precisa de um sistema para controlar o empréstimo de aproximadamente **2.000 DVDs**. O sistema deverá contemplar o controle de filmes, DVDs, clientes e locações ativas.
+
+## Requisitos do Sistema
+
+### Filmes
+
+- Cada filme possui:
+  - Um identificador único.
+  - Um título.
+  - Uma categoria (comédia, drama, aventura, ação etc.).
+  - Uma lista de atores principais (opcional).
+
+### DVDs
+
+- Cada DVD:
+  - Possui um número de identificação.
+  - Está associado a um único filme.
+  - Em casos específicos, um filme pode ocupar dois DVDs.
+  - Cada DVD contém somente um filme.
+
+### Atores
+
+- Os filmes podem ter atores destacados.
+- Para cada ator podem ser armazenadas as seguintes informações:
+  - Nome real.
+  - Apelido conhecido.
+- Nem todos os filmes possuem atores registrados.
+
+### Clientes
+
+- Apenas clientes cadastrados podem alugar DVDs.
+- Cada cliente possui:
+  - Número de associado (identificador único).
+  - Nome e sobrenome.
+  - Telefone.
+  - Endereço completo.
+- Um cliente pode ter vários DVDs alugados simultaneamente.
+
+### Empréstimos
+
+- O sistema deve permitir verificar quais DVDs estão atualmente alugados por cada cliente.
+- Registros históricos de locações não são mantidos.
+
+## Status do Projeto
+
+Em desenvolvimento (projeto acadêmico).
